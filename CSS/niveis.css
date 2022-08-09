@@ -1,0 +1,89 @@
+.Container{
+    align-items: center;
+    text-align: center;
+    margin-top: 150px;
+    width: 300px;
+    height: 300px;
+    background: rgba( 255, 255, 255, 0.35 );
+    box-shadow: 0 8px 32px 0 rgb(#a8328b,#ed77d0, #f792f4);
+    backdrop-filter: blur( 13.5px );
+    -webkit-backdrop-filter: blur( 13.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    margin-left: 40%;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.Body1 {
+    background-image: url('../IMAGENS/NivelUm.jpg');
+    background-repeat: no-repeat;
+}
+.Body2 {
+    background-image: url("../IMAGENS/NivelDois.jpg");
+    background-repeat: no-repeat;
+}
+.Body3 {
+    background-image: url("../IMAGENS/NivelTres.png");
+    background-repeat: no-repeat;
+}
+.Body4 {
+    background-image: url("../IMAGENS/NivelQuatro.jpg");
+    background-repeat: no-repeat;
+}
+.Body5 {
+    background-image: url("../IMAGENS/NivelCinco.jpg");
+    background-repeat: no-repeat;
+}
+.Body6 {
+    background-image: url("../IMAGENS/NivelSeis.jpg");
+    background-repeat: no-repeat;
+}
+.Body7 {
+    background-image: url("../IMAGENS/NivelSete.jpg");
+    background-repeat: no-repeat;
+}
+.Body8 {
+    background-image: url("../IMAGENS/NivelOito.jpg");
+    background-repeat: no-repeat;
+}
+.Body9 {
+    background-image: url("../IMAGENS/NivelNove.jpg");
+    background-repeat: no-repeat;
+}
+
+.Column{
+flex-direction: column;
+display: flex;
+margin-top: 150px;
+}
+
+.Input{
+    width: 200px;
+    align-self: center;
+    margin: 7px;
+}
+
+#fase{
+   margin-top: 50px;
+   text-align: center;
+   font-size: 60px;
+}
+#mensagem{
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+#divNumero{
+    margin-top: 30px;
+}
+#x{
+    font-size: 25px;
+}
+#sinal{
+    font-size: 25px;
+}
+#y{
+    font-size: 25px;
+}
+

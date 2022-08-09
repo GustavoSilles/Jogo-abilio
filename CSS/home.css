@@ -1,0 +1,39 @@
+body {
+    background-image: url('../IMAGENS/Home.jpg');
+    background-repeat: no-repeat;
+}
+.Container{
+    align-items: center;
+    text-align: center;
+    margin-top: 200px;
+    width: 300px;
+    height: 300px;
+    background: rgba( 255, 255, 255, 0.35 );
+    box-shadow: 0 8px 32px 0 rgb(#a8328b,#ed77d0, #f792f4);
+    backdrop-filter: blur( 13.5px );
+    -webkit-backdrop-filter: blur( 13.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    margin-left: 40%;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+#button{
+    margin-top: 40px;
+    width: 130px;
+    border-radius:  500px;
+    height: 50px;
+    font-size: 15px;
+    background-color: pink;
+    border-color: deeppink;
+}
+h1{
+margin-top: 30px;
+}
+h2{
+    margin-top: 25px;
+}
